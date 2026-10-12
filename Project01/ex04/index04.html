@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Create Your Account</h1>
+    <p>Complete the form below. Fields marked with * are required.</p>
+
+    <form >
+            <label for="full-name">Full Name *</label><br>
+            <input type="text" action="#" method="post"id="full-name" name="full_name"
+                   minlength="3" autocomplete="name" required>
+
+            <label for="email">Email Address *</label><br>
+            <input type="email" id="email" name="email"
+                   autocomplete="email" required>
+    
+
+            <label for="password">Password *</label><br>
+            <input type="password" id="password" name="password"
+                   minlength="8" autocomplete="new-password" required>
+
+           <input type="radio" id="male" name="gender"
+           value="male" required>
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender"
+           value="female" required>
+            <label for="female">Female</label>
+
+        
+
+        
+            <label for="track">Learning Track *</label><br>
+            <select id
+        
+            <label for="track" >Learning Track </label><br>
+            <s="track" name="track" required>
+                <option value="">Select a track</option>
+                <option value="web">Web Development</option>
+                <option value="cyber">Cybersecurity</option>
+                <option value="data">Data Analysis</option>
+            </select>
+
+            <label for="goals">Learning Goals</label><br>
+            <textarea id="goals" name="goals" rows="4" cols="40"
+                      placeholder="Tell us what you want to learn"></textarea>
+
+            <input type="checkbox" id="agreement" name="agreement"
+                   value="accepted" required>
+            <label for="agreement">I agree to the registration terms *</label>
+        
+
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
